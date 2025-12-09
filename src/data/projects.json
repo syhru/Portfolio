@@ -1,0 +1,39 @@
+[
+  {
+    "name": "4EYES STORE",
+    "description": "Brand clothing store system with Aut Login features, user master data, product master data, and invoices.",
+    "image": "/projects/4EYESSTORE.png",
+    "tools": [
+      "Codeigniter",
+      "Bootstrap CSS",
+      "jQuery",
+      "MySQL"
+    ],
+    "github": "-",
+    "demo": "-"
+  },
+  {
+    "name": "Store Management System",
+    "description": "storage using JAVA, with Aut Login feature, graphical user interface (GUI), and database iteration. Implement CRUD (Create, Read, Update, Delete) for data entities in the system, with data storage that is integrated with the database.",
+    "image": "/projects/StoreSystemManagement.png",
+    "tools": ["Java", "MySQL"],
+    "github": "-",
+    "demo": "-"
+  },
+  {
+    "name": "UI Login",
+    "description": "This project is the development of a web interface for the login process that is engaging and interactive, with slide login and sign-up animation features.",
+    "image": "/projects/UI login.png",
+    "tools": ["HTML", "Javascript", "Bootstrap CSS"],
+    "github": "-",
+    "demo": "-"
+  },
+  {
+    "name": "Perpustakaan",
+    "description": "This project uses the CRUD (Create, Read, Update, Delete) features of book information, members, and borrowing transactions.",
+    "image": "/projects/perpus.png",
+    "tools": ["PHP", "Bootstrap Css", "MySQL"],
+    "github": "-",
+    "demo": "-"
+  }
+]

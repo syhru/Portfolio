@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.wave-emoji {
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-name: wave;
+    display: inline-block;
+    transform-origin: 70% 70%;
+    font-size: 4rem;
+  }
+  
+  @keyframes wave {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    20%, 60% {
+      transform: rotate(25deg);
+    }
+    40%, 80% {
+      transform: rotate(-10deg);
+    }
+  }
+
+  @media (max-width: 1080px) {
+    .absolt{
+        position: relative;
+        left: 28px;
+    }
+
+    .wave-emoji {
+      font-size: 2.5rem; /* Ukuran emoji di perangkat mobile */
+      position: relative;
+      left: 0%;
+    }
+  }
+
+  @media (max-width: 500px) {
+   
+    .absolt{
+        position: relative;
+        left: 25px;
+        line-height: 30px;
+    }
+
+    .wave-emoji {
+      font-size: 40px; /* Ukuran emoji di perangkat mobile */
+
+      left: 1px;
+    }
+  }
+
+  @media (max-width: 360px) {
+   
+    .absolt{
+        position: relative;
+        left: 20px;
+        line-height: 30px;
+    }
+
+    .wave-emoji {
+      font-size: 35px; /* Ukuran emoji di perangkat mobile */
+      right: 35px;
+    }
+  }
