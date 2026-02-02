@@ -1,8 +1,8 @@
 "use client";
 
-import { FiArrowUp } from "react-icons/fi";
 import navigations from "@/data/navigations.json";
 import Link from "next/link";
+import { FiArrowUp } from "react-icons/fi";
 
 export const Footer = () => {
   const scrollToTop = () => {
@@ -18,22 +18,20 @@ export const Footer = () => {
               <li key={index}>
                 <Link
                   href={navigation.path}
-                  className="text-sm text-neutral-800 dark:text-neutral-300 hover:text-blue-600 hover:dark:text-blue-400"
-                >
+                  className="text-sm text-neutral-800 dark:text-neutral-300 hover:text-blue-600 hover:dark:text-blue-400">
                   /{navigation.name.toLowerCase()}
                 </Link>
               </li>
             ))}
           </ul>
           <p className="text-sm text-neutral-800 dark:text-neutral-300">
-            &copy; 2026 syhru. All rights reserved
+            &copy;{new Date().getFullYear()} Syhru. All rights reserved
           </p>
         </div>
         <button
           onClick={scrollToTop}
           className="bg-white dark:bg-neutral-800 outline-neutral-200 dark:outline-neutral-700 outline-1 hover:outline-2 outline rounded-full p-2 mx-4 absolute right-0 top-1/2 -translate-y-1/2 text-neutral-700 dark:text-white"
-          aria-label="Scroll to top"
-        >
+          aria-label="Scroll to top">
           <FiArrowUp />
         </button>
       </div>
