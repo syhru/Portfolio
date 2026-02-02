@@ -1,12 +1,12 @@
 [
   {
     "name": "4EYES STORE",
-    "description": "Brand clothing store system with Aut Login features, user master data, product master data, and invoices.",
+    "description": "Developed a full-stack e-commerce web application for a clothing brand (4EYES) with integrated Point of Sale (POS) system, featuring product catalog, shopping cart, order management, and invoice generation.",
     "image": "/projects/4EYESSTORE.png",
     "tools": [
-      "Codeigniter",
+      "CodeIgniter 3",
       "Bootstrap CSS",
-      "jQuery",
+      "Javascript",
       "MySQL"
     ],
     "github": "-",
